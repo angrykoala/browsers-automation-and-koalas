@@ -1,0 +1,23 @@
+{
+  "name": "wendigo-and-other-monsters",
+  "version": "1.0.0",
+  "description": "Wendigo and other monsters talk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "yamp --remark index.md -o index.html -k"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angrykoala/wendigo-and-other-monsters.git"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/angrykoala/wendigo-and-other-monsters/issues"
+  },
+  "homepage": "https://github.com/angrykoala/wendigo-and-other-monsters#readme",
+  "dependencies": {
+    "yamp": "^0.4.3"
+  }
+}
