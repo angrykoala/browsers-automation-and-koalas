@@ -11,8 +11,6 @@ _@angrykoala_
 
 * **Name:** Andrés Ortiz
 
-* **A.K.A.:** angrykoala
-
 * **GitHub:** https://github.com/angrykoala
 
 Software developer, koala fan and developer of [Wendigo](https://github.com/angrykoala/wendigo)
@@ -21,15 +19,30 @@ Software developer, koala fan and developer of [Wendigo](https://github.com/angr
 
 ## What is Browser Automation?
 
+```js
+
+browser.open("www.google.com");
+browser.click(".button");
+browser.type("Hello there");
+```
 
 ---
 
 ## Challenges
 
+* Performance.
+* Unreliability (race conditions, bugs, complexity, ...).
+* APIs out of our control.
 
 ---
 
 ## How To
+
+* **Create a Headless Browser**
+
+* **Use Webdriver** (https://www.w3.org/TR/webdriver1)
+
+* **Use Browser-specific tools**
 
 
 ## Workshop

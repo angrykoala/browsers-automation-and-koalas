@@ -37,7 +37,6 @@ There are several ways of controlling a browser:
 **Create a Fake Browser**  
 Implementing the same APIs that a browser would (html rendering, css parsing and js engine) but fully controlled through an API.
 
-_Examples_: Phantom
 
 **Use Webdriver**
 Standard to control browsers. Implemented in several major browser
@@ -52,14 +51,11 @@ https://www.w3.org/TR/webdriver1/
 ### Tools
 Usually, we will use more accessible tools
 
+* [Selenium](https://www.seleniumhq.org/)
 * [Puppeteer](https://github.com/GoogleChrome/puppeteer)
 * [Cypress.io](https://www.cypress.io)
-* [Nightwatch](https://nightwatchjs.org)
-* [Nightmare](http://www.nightmarejs.org)
 * [Wendigo](https://github.com/angrykoala/wendigo)
 
-
-To Check: webdriverIO, PhantomJS, Selenium
 
 ## Workshop
 
