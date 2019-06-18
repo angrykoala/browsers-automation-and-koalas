@@ -13,11 +13,17 @@ _@angrykoala_
 
 ## The Me
 
-* **Name:** Andrés Ortiz
+* Andrés Ortiz
 
-* **GitHub:** https://github.com/angrykoala
+* https://github.com/angrykoala
 
 Software developer, koala fan and OS contributor.
+
+---
+class: center, middle
+
+![](./static/koalas/party.jpg)
+
 
 ---
 

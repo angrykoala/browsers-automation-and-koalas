@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha ./workshop/*.test.js --exit"
+    "test": "mocha ./workshop/*.test.js --exit",
+    "server": "node server/index.js"
   },
   "author": "",
   "license": "GPL-3.0",
   "devDependencies": {
-      "wendigo": "^2.1.1",
-    "mocha": "^6.1.4"
+    "express": "^4.17.1",
+    "mocha": "^6.1.4",
+    "wendigo": "^2.1.1"
   }
 }
