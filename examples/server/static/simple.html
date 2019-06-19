@@ -1,0 +1,19 @@
+<html>
+
+<p class="panic-text">Don't Panic</p>
+<button onclick="panic()">Panic!</button>
+
+
+<img src="aah.jpg" class="aah" hidden=true>
+
+<script>
+function panic(){
+    const e=document.querySelector('.panic-text');
+    e.textContent="AAAAH!"
+    const image=document.querySelector('.aah');
+    image.hidden=false
+}
+
+</script>
+
+</html>
