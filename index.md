@@ -6,7 +6,11 @@ class: center, middle
 
 # Wendigo
 ### And Other Monsters
-_@angrykoala_
+#### Introduction to Browser Automation
+And Koalas
+
+_by @angrykoala_
+
 
 ---
 
@@ -37,8 +41,21 @@ browser.click(".button");
 browser.type("Hello there");
 ```
 
+--
+count:false
+
+<center>
+    <img src="./static/koalas/classy.png" height="300">
+</center>
+
 ---
-## Why
+## Why?
+
+<center>
+    <img src="./static/terry.gif">
+</center>
+---
+## Why?
 
 * **Web Scraping**
 
@@ -56,15 +73,12 @@ browser.type("Hello there");
 
 * **APIs out of our control.**
 
----
+--
+count:false
 
-## How To
-
-1. **Create a Headless Browser.**
-
-2. **Use Webdriver.** (https://www.w3.org/TR/webdriver1)
-
-3. **Use Browser-specific tools.**
+<center>
+    <img src="./static/fine.gif">
+</center>
 
 ---
 
@@ -84,11 +98,8 @@ count: false
 <img src="./static/wendigo.png" height="150">
 
 ---
-class: center, middle
+class: center
 
 ## Examples
 
----
-class: center, middle
-
-## Workshop
+<img src="./static/koalas/got_koala.jpg" width="600">
