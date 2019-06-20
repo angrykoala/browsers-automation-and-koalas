@@ -20,11 +20,7 @@ async function main() {
         console.log("Sudaderas");
         await browser.clickText("#fav-nav", "Sudaderas");
         await browser.waitForNavigation(navigationTimeout);
-        await pressAnyKey();
         console.log("Item View")
-        await browser.clickText(".product-container", "Sudadera con capucha", 1) // Only clicks first element
-        await browser.waitForNavigation(navigationTimeout);
-        console.log("Checkout");
         await pressAnyKey();
         await browser.setValue(".quantity-input", 10)
         await browser.waitFor(".addtocart-button", 1000)
@@ -41,7 +37,9 @@ async function main() {
         await browser.assert.text(".PricebillTotal", "0,00 €")
         console.log("Empty Basket - OK");
         await browser.close();
-    } catch (err) {}
+    } catch (err) {
+        console.log(err)
+    }
     await browser.close()
 }
 

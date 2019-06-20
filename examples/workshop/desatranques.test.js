@@ -5,7 +5,7 @@ const Wendigo = require('wendigo');
 const navigationTimeout = 30000;
 
 describe("En Desatranques Jaén", function() {
-    this.timeout(20000);
+    this.timeout(40000);
     let browser;
 
     before(async () => {
