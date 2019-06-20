@@ -15,4 +15,4 @@ async function main() {
 }
 
 
-main();
+main(); // using main just to have access to async/await
