@@ -6,8 +6,8 @@ class: center, middle
 
 # Wendigo
 ### And Other Monsters
+and koalas
 #### Introduction to Browser Automation
-And Koalas
 
 _by @angrykoala_
 
