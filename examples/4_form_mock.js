@@ -15,7 +15,7 @@ async function main() {
     await browser.clearValue("#last-name");
     await browser.type("#last-name", "Koala");
     await browser.click("input.submit");
-    await browser.waitForNavigation(); // Go to new page, waits until loaded
+    await browser.waitForNavigation(5000); // Go to new page, waits until loaded
     console.log(await browser.text("body"));
     await browser.close();
 }
