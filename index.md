@@ -1,13 +1,13 @@
 ---
-title: Wendigo And Other Monsters - angrykoala
+title: Browsers, Automation and Koalas - angrykoala
 ---
 
 class: center, middle
 
-# Wendigo
-### And Other Monsters
-and koalas
-#### Introduction to Browser Automation
+# Browsers, Automation
+### and Koalas
+
+#### An ~~easy~~ introduction to Browser Automation
 
 _by @angrykoala_
 
@@ -21,7 +21,7 @@ _by @angrykoala_
 
 * https://github.com/angrykoala
 
-Software developer, koala fan and OS contributor.
+Software developer, koala fan,OS contributor.
 
 <img src="./static/koalas/octokoala.png" height="300">
 
@@ -64,7 +64,7 @@ count:false
 
 * **Services Automation**
 
-* **Testing**
+* **Testing!!**
 
 ---
 
@@ -72,9 +72,11 @@ count:false
 
 * **Performance.**
 
-* **Unreliability (race conditions, bugs, complexity, ...).**
+* **Unreliability.**
 
 * **APIs out of our control.**
+
+* **Race Conditions.**
 
 --
 count:false
@@ -85,7 +87,7 @@ count:false
 
 ---
 
-## Monstrous Tools
+## Koalafied Tools
 
 * **Selenium** - https://www.seleniumhq.org
 
